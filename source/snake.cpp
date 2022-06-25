@@ -60,11 +60,6 @@ struct Snake {
 	auto Consume(Food & food) -> void {
 		score += food.points;
 		tail.push_front(tail.front());
-		tail.push_front(tail.front());
-		tail.push_front(tail.front());
-		tail.push_front(tail.front());
-		tail.push_front(tail.front());
-		tail.push_front(tail.front());
 	}
 	auto Damage(Trap & trap) -> bool {
 		score /= 2;

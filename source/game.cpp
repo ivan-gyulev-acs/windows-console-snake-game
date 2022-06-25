@@ -12,7 +12,7 @@ using std::string;
 #include "trap.cpp"
 #include "snake.cpp"
 
-const array<size_t, 2> FIELD_SIZE = {50, 50};
+const array<size_t, 2> FIELD_SIZE = {60, 30};
 const COLOR FIELD_COLOR = GREEN;
 const COLOR SNAKE_COLOR = BLUE;
 const COLOR FOOD_COLOR = RED;
